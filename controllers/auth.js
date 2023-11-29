@@ -85,7 +85,7 @@ exports.register = async (req, res, next) => {
              </div>
              <div style="padding: 8px 0; text-align: center; font-size: 0.8em">
                 <p>Our mailing address is:</p>
-                <p style="text-decoration: underline">support@LiveTraders.xyz</p>
+                <p style="text-decoration: underline">support@livetraders.cc</p>
              </div>
              <div style="padding: 8px 0; text-align: center; font-size: 0.8em">
                 <p>Want to change how you receive these emails? Reply this mail</p>
@@ -232,7 +232,7 @@ exports.activationController = (req, res, next) => {
                        </div>
                        <div style="padding: 8px 0; text-align: center; font-size: 0.8em">
                           <p>Our mailing address is:</p>
-                          <p style="text-decoration: underline">support@LiveTraders.xyz</p>
+                          <p style="text-decoration: underline">support@livetraders.cc</p>
                        </div>
                        <div style="padding: 8px 0; text-align: center; font-size: 0.8em">
                           <p>Want to change how you receive these emails? Reply this mail</p>
