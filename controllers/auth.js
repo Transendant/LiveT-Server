@@ -105,7 +105,7 @@ exports.register = async (req, res, next) => {
     },
     tls: {
       rejectUnauthorized: false,
-      ciphers: "SSLv3",
+      
     },
   });
 
@@ -254,7 +254,7 @@ exports.activationController = (req, res, next) => {
 
               tls: {
                 rejectUnauthorized: false,
-                ciphers: "SSLv3",
+                
               },
             });
 
