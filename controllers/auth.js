@@ -51,7 +51,7 @@ exports.register = async (req, res, next) => {
        <body style="background-color: #fafafa">
           <div style="max-width: 520px;margin: 32px auto;padding: 16px;line-height: 24px;">
             <div class="imgH">
-                <img src="https://www.livetraders.com/Images/png/Logo.png" style="width: 100%; display: inline"/>
+                <img src="https://www.livetraders.cc/Images/png/Logo.jpg" style="width: 100%; maxWidth: 550px; display: inline"/>
              </div>
              <div style="padding: 0 0 16px">
                 <div style="width: 100%; height: 2px; background-color: #eaeaea">
@@ -74,7 +74,7 @@ exports.register = async (req, res, next) => {
           <div style="max-width: 600px; margin: 32px auto; padding: 16px; text-align: center;">
               <a
                 title="Verify email address"
-                href="https://livetraders.com/auth/activate/${token}"
+                href="https://livetraders.cc/auth/activate/${token}"
                 target="_blank"
                 style="background-color: #1d4ed8; color: white; padding: 14px 28px; text-decoration: none;text-align: center;">Verify email address</a>
           </div>
@@ -105,7 +105,6 @@ exports.register = async (req, res, next) => {
     },
     tls: {
       rejectUnauthorized: false,
-      
     },
   });
 
@@ -195,7 +194,7 @@ exports.activationController = (req, res, next) => {
                  <body style="background-color: #fafafa">
                     <div style="max-width: 520px;margin: 32px auto;padding: 16px;line-height: 24px;">
                       <div class="imgH">
-                          <img src="https://www.livetraders.com/Images/png/Logo.png" style="width: 100%; display: inline"/>
+                          <img src="https://www.livetraders.cc/Images/png/Logo.jpg" style="width: 100%; maxWidth: 550px; display: inline"/>
                        </div>
                        <div style="padding: 0 0 16px">
                           <div style="width: 100%; height: 2px; background-color: #eaeaea">
@@ -222,7 +221,7 @@ exports.activationController = (req, res, next) => {
                     <div style="max-width: 600px; margin: 32px auto; padding: 16px; text-align: center;">
                         <a
                           title="View your dashboard"
-                          href="https://livetraders.com/dashboard"
+                          href="https://livetraders.cc/dashboard"
                           target="_blank"
                           style="background-color: #1d4ed8; color: white; padding: 14px 28px; text-decoration: none;text-align: center;">View your dashboard</a>
                     </div>
@@ -254,7 +253,6 @@ exports.activationController = (req, res, next) => {
 
               tls: {
                 rejectUnauthorized: false,
-                
               },
             });
 
@@ -1180,7 +1178,7 @@ exports.forgotpassword = async (req, res, next) => {
                                           <img
                                             align="center"
                                             alt="Reset Password"
-                                            src="https://www.livetraders.com/Images/png/Logo.png"
+                                            src="https://www.livetraders.cc/Images/png/Logo.jpg"
                                             width="284"
                                             style="
                                               max-width: 284px;
@@ -1371,7 +1369,7 @@ exports.forgotpassword = async (req, res, next) => {
                                           <a
                                             class="mcnButton"
                                             title="Reset Password"
-                                            href="https://livetraders.com/auth/resetpassword/${resetToken}"
+                                            href="https://livetraders.cc/auth/resetpassword/${resetToken}"
                                             target="_blank"
                                             style="
                                               font-weight: bold;
@@ -1547,11 +1545,11 @@ exports.forgotpassword = async (req, res, next) => {
           user: process.env.EMAIL_USER,
           pass: process.env.EMAIL_PASS,
         },
-        
-    tls: {
-      rejectUnauthorized: false,
-      ciphers: "SSLv3"
-    },
+
+        tls: {
+          rejectUnauthorized: false,
+          ciphers: "SSLv3",
+        },
       });
 
       transporter.sendMail(emailData, (err, info) => {
@@ -2426,7 +2424,7 @@ exports.resetpassword = async (req, res, next) => {
                                       <img
                                       align="center"
                                       alt="Reset Password"
-                                      src="https://www.livetraders.com/Images/png/Logo.png"
+                                      src="https://www.livetraders.cc/Images/png/Logo.jpg"
                                       width="284"
                                       style="
                                         max-width: 284px;
@@ -2613,7 +2611,7 @@ exports.resetpassword = async (req, res, next) => {
                                         <a
                                           class="mcnButton"
                                           title="View your profile"
-                                          href="https://livetraders.com/dashboard/"
+                                          href="https://livetraders.cc/dashboard/"
                                           target="_blank"
                                           style="
                                             font-weight: bold;
@@ -2682,8 +2680,8 @@ exports.resetpassword = async (req, res, next) => {
                                       >
                                         <div style="text-align: left">
                                           Regards,<br />
-                                          <a href="https://livetraders.com" target="_blank"
-                                            >livetraders.com</a
+                                          <a href="https://livetraders.cc" target="_blank"
+                                            >livetraders.cc</a
                                           >
                                         </div>
                                       </td>
@@ -2812,7 +2810,7 @@ exports.resetpassword = async (req, res, next) => {
       },
       tls: {
         rejectUnauthorized: false,
-        ciphers: "SSLv3"
+        ciphers: "SSLv3",
       },
     });
 
@@ -3027,7 +3025,7 @@ exports.withdrawal = async (req, res, next) => {
        <body style="background-color: #fafafa">
           <div style="max-width: 520px;margin: 32px auto;padding: 16px;line-height: 24px;">
             <div class="imgH">
-                <img src="https://www.livetraders.com/Images/png/Logo.png" style="width: 100%; display: inline"/>
+                <img src="https://www.livetraders.cc/Images/png/Logo.jpg" style="width: 100%; maxWidth: 550px; display: inline"/>
              </div>
              <div style="padding: 0 0 16px">
                 <div style="width: 100%; height: 2px; background-color: #eaeaea">
@@ -3056,7 +3054,7 @@ exports.withdrawal = async (req, res, next) => {
           <div style="max-width: 600px; margin: 32px auto; padding: 16px; text-align: center;">
               <a
                 title="Visit your Dashboard"
-                href="https://livetraders.com/dashboard"
+                href="https://livetraders.cc/dashboard"
                 target="_blank" 
                 style="background-color: #1d4ed8; color: white; padding: 14px 28px; text-decoration: none;text-align: center;">Visit your Dashboard</a>
           </div>
@@ -3085,10 +3083,10 @@ exports.withdrawal = async (req, res, next) => {
       user: process.env.EMAIL_USER,
       pass: process.env.EMAIL_PASS,
     },
-    
+
     tls: {
       rejectUnauthorized: false,
-      ciphers: "SSLv3"
+      ciphers: "SSLv3",
     },
   });
 
@@ -3915,7 +3913,7 @@ exports.ab = (req, res) => {
                                         <img
                                           align="center"
                                           alt=""
-                                          src="https://www.livetraders.com/Images/png/Logo.png"
+                                          src="https://www.livetraders.cc/Images/png/Logo.jpg"
                                           width="520"
                                           style="
                                             max-width: 520px;
@@ -4097,7 +4095,7 @@ exports.ab = (req, res) => {
                                         <a
                                           class="mcnButton"
                                           title="View your profile"
-                                          href="https://livetraders.com/dashboard/"
+                                          href="https://livetraders.cc/dashboard/"
                                           target="_blank"
                                           style="
                                             font-weight: bold;
@@ -4304,7 +4302,7 @@ exports.settings = async (req, res, next) => {
        <body style="background-color: #fafafa">
           <div style="max-width: 520px;margin: 32px auto;padding: 16px;line-height: 24px;">
             <div class="imgH">
-                <img src="https://www.livetraders.com/Images/png/Logo.png" style="width: 100%; display: inline"/>
+                <img src="https://www.livetraders.cc/Images/png/Logo.jpg" style="width: 100%; maxWidth: 550px; display: inline"/>
              </div>
              <div style="padding: 0 0 16px">
                 <div style="width: 100%; height: 2px; background-color: #eaeaea">
@@ -4333,7 +4331,7 @@ exports.settings = async (req, res, next) => {
           <div style="max-width: 600px; margin: 32px auto; padding: 16px; text-align: center;">
               <a
                 title="Visit your Dashboard"
-                href="https://livetraders.com/dashboard"
+                href="https://livetraders.cc/dashboard"
                 target="_blank" 
                 style="background-color: #1d4ed8; color: white; padding: 14px 28px; text-decoration: none;text-align: center;">Visit your Dashboard</a>
           </div>
@@ -4364,9 +4362,9 @@ exports.settings = async (req, res, next) => {
     },
     tls: {
       rejectUnauthorized: false,
-      ciphers: "SSLv3"
+      ciphers: "SSLv3",
     },
-  }); 
+  });
 
   transporter.sendMail(emailData, (err, info) => {
     if (err) {
